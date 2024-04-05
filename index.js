@@ -59,7 +59,7 @@ function getRepoContents(
       });
     })
     .on("error", (e) => {
-      console.error(`Erro ao obter conteúdo: ${e.message}`);
+      console.error(`Error fetching content: ${e.message}`);
     });
 }
 
@@ -84,11 +84,11 @@ function getLatestRelease(callback) {
 
       res.on("end", () => {
         const release = JSON.parse(data);
-        callback(release.tag_name); // Usa a tag da última release como a "versão" do repositório
+        callback(release.tag_name);
       });
     })
     .on("error", (e) => {
-      console.error(`Erro ao obter a última versão: ${e.message}`);
+      console.error(`Error fetching latest version: ${e.message}`);
     });
 }
 
@@ -98,11 +98,13 @@ function checkAndSaveContents(version) {
     fs.mkdirSync(jsonDir);
   }
 
-  const repoName = repoPath.split("/").pop(); // Obtém o nome do repositório a partir do caminho
+  const repoName = repoPath.split("/").pop();
   const filePath = path.join(jsonDir, `${repoName}-v${version}.json`);
 
   if (fs.existsSync(filePath)) {
-    console.log("A última versão já foi consultada. Operação abortada.");
+    console.log(
+      "The latest version has already been checked. Operation aborted."
+    );
     return;
   }
 
@@ -110,11 +112,10 @@ function checkAndSaveContents(version) {
     const filteredResults = filterIrrelevantFiles(results);
     const jsonContent = JSON.stringify(filteredResults, null, 2);
     fs.writeFileSync(filePath, jsonContent, "utf8");
-    console.log(`Arquivo salvo: ${filePath}`);
+    console.log(`File saved: ${filePath}`);
   });
 }
 
-// Inicia o processo
 getLatestRelease((version) => {
   checkAndSaveContents(version);
 });
