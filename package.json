@@ -1,0 +1,30 @@
+{
+  "name": "ai-documentation-generator",
+  "version": "1.0.0",
+  "description": "An application that creates documentation focused on updating and teaching programming language models about new features in NPM packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiconburn/ai-documentation-generator.git"
+  },
+  "keywords": [
+    "ai",
+    "training",
+    "llms",
+    "models",
+    "documentation",
+    "npm"
+  ],
+  "author": "Maicon Ribeiro Esteves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiconburn/ai-documentation-generator/issues"
+  },
+  "homepage": "https://github.com/maiconburn/ai-documentation-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

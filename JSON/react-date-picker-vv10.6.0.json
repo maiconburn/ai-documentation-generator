@@ -1,0 +1,202 @@
+[
+  {
+    "name": ".lintstagedrc.json",
+    "type": "file",
+    "path": "/.lintstagedrc.json"
+  },
+  {
+    "name": ".yarnrc.yml",
+    "type": "file",
+    "path": "/.yarnrc.yml"
+  },
+  {
+    "name": "README.md",
+    "type": "file",
+    "path": "/README.md"
+  },
+  {
+    "name": "package.json",
+    "type": "file",
+    "path": "/package.json"
+  },
+  {
+    "name": "Sample.css",
+    "type": "file",
+    "path": "/sample/Sample.css"
+  },
+  {
+    "name": "Sample.tsx",
+    "type": "file",
+    "path": "/sample/Sample.tsx"
+  },
+  {
+    "name": "index.html",
+    "type": "file",
+    "path": "/sample/index.html"
+  },
+  {
+    "name": "index.tsx",
+    "type": "file",
+    "path": "/sample/index.tsx"
+  },
+  {
+    "name": "package.json",
+    "type": "file",
+    "path": "/sample/package.json"
+  },
+  {
+    "name": "vite.config.ts",
+    "type": "file",
+    "path": "/sample/vite.config.ts"
+  },
+  {
+    "name": "pre-commit",
+    "type": "file",
+    "path": "/.husky/pre-commit"
+  },
+  {
+    "name": "README.md",
+    "type": "file",
+    "path": "/packages/react-date-picker/README.md"
+  },
+  {
+    "name": "package.json",
+    "type": "file",
+    "path": "/packages/react-date-picker/package.json"
+  },
+  {
+    "name": "tsconfig.build.json",
+    "type": "file",
+    "path": "/packages/react-date-picker/tsconfig.build.json"
+  },
+  {
+    "name": "DateInput.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput.spec.tsx"
+  },
+  {
+    "name": "DateInput.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput.tsx"
+  },
+  {
+    "name": "DatePicker.css",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DatePicker.css"
+  },
+  {
+    "name": "DatePicker.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DatePicker.spec.tsx"
+  },
+  {
+    "name": "DatePicker.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DatePicker.tsx"
+  },
+  {
+    "name": "Divider.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/Divider.tsx"
+  },
+  {
+    "name": "index.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/index.ts"
+  },
+  {
+    "name": "plugin-nolyfill.cjs",
+    "type": "file",
+    "path": "/.yarn/plugins/@yarnpkg/plugin-nolyfill.cjs"
+  },
+  {
+    "name": "dateFormatter.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/dateFormatter.ts"
+  },
+  {
+    "name": "dates.spec.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/dates.spec.ts"
+  },
+  {
+    "name": "dates.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/dates.ts"
+  },
+  {
+    "name": "propTypes.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/propTypes.ts"
+  },
+  {
+    "name": "types.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/types.ts"
+  },
+  {
+    "name": "utils.spec.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/utils.spec.ts"
+  },
+  {
+    "name": "utils.ts",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/shared/utils.ts"
+  },
+  {
+    "name": "DayInput.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/DayInput.spec.tsx"
+  },
+  {
+    "name": "DayInput.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/DayInput.tsx"
+  },
+  {
+    "name": "Input.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/Input.tsx"
+  },
+  {
+    "name": "MonthInput.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/MonthInput.spec.tsx"
+  },
+  {
+    "name": "MonthInput.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/MonthInput.tsx"
+  },
+  {
+    "name": "MonthSelect.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/MonthSelect.spec.tsx"
+  },
+  {
+    "name": "MonthSelect.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/MonthSelect.tsx"
+  },
+  {
+    "name": "NativeInput.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/NativeInput.spec.tsx"
+  },
+  {
+    "name": "NativeInput.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/NativeInput.tsx"
+  },
+  {
+    "name": "YearInput.spec.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/YearInput.spec.tsx"
+  },
+  {
+    "name": "YearInput.tsx",
+    "type": "file",
+    "path": "/packages/react-date-picker/src/DateInput/YearInput.tsx"
+  }
+]
