@@ -1,2 +1,2 @@
 # ai-documentation-generator
-Uma aplicação que criar documentacao focada em atualizar a ensinar programming language models sobre novidades em pacotes NPM.
+An application that creates documentation focused on updating and teaching programming language models about new features in NPM packages.
